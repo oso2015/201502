@@ -17,15 +17,15 @@ module.exports = function(grunt) {
     uglify: {
       main: {
         files: {
-          './dist/page1.js': [
+          './dist/js/page1.js': [
             'libs/zepto.js',
             'src/page1.js',
           ],
-          './dist/page2.js': [
+          './dist/js/page2.js': [
             'libs/zepto.js',
             'src/page2.js',
           ],
-          './dist/page3.js': [
+          './dist/js/page3.js': [
             'libs/zepto.js',
             'src/page3.js',
           ]
