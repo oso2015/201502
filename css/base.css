@@ -1,0 +1,83 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Noto Sans','Helvetica Neue','Arial','Hiragino Sans GB','MicrosoftYahei';
+}
+img{
+    max-width: 100%;
+}
+#doc{
+    height: 100%;
+    position: relative;
+}
+#hd{
+    position: relative;
+    height: 25%;
+    background-color: #70E757;
+    background-image: url(bg2.png);
+    background-size: 100%;
+    overflow: hidden;
+}
+#hd .jc{
+    background-image: url(jc-up.png);
+    height: 8px;
+    position: absolute;
+    width: 200%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    transform: scale(0.7);
+    transform-origin: 0 100%;
+}
+#bd{
+    position: relative;
+    height: 25%;
+    /* background-color: red; */
+}
+#ft{
+    position: fixed;
+    bottom: 0;
+    background-color: #60D81F;
+    width: 100%;
+    height: 95px;
+    overflow: hidden;
+}
+@media (max-height: 600px) {
+    #ft{height: 80px;}
+}
+#ft .jc{
+    position: absolute;
+    width: 200%;
+    height: 8px;
+    background-image: url(jc-down.png);
+    transform: scale(0.7);
+    transform-origin: 0 0;
+}
+#ft .c1,
+#ft .c2,
+#ft .c3{
+    position: absolute;
+    top: 15px;
+    bottom: 5px;
+    text-indent: -999em;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#ft .c1{
+    width: 33%;
+    left: 1%;
+    background-image: url(btn2.png);
+}
+#ft .c2{
+    width: 43%;
+    background-image: url(h2.png);
+    left: 36%;
+}
+#ft .c3{
+    width: 21%;
+    background-image: url(logo2.png);
+    left: 79%;
+}

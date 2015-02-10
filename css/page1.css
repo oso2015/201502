@@ -1,0 +1,94 @@
+#hd{
+    height: 60%;
+}
+#bd .y1,
+#bd .y2,
+#bd .y3{
+    position: absolute;
+    height: 100%;
+    width: 26%;
+    overflow: hidden;
+    text-indent: -999em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+#bd .y1{
+    background-image: url(yy-1.png);
+    left: 3%;
+}
+#bd .y2{
+    background-image: url(yy-2.png);
+    left: 37%;
+}
+#bd .y3{
+    background-image: url(yy-3.png);
+    left: 71%;
+}
+
+#hd{}
+#hd h1{
+    background-image: url(h1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 70%;
+    height: 150px;
+    margin: 5px auto 0;
+    /* background-color: red; */
+}
+#hd p{
+    margin: 0;
+    text-align: center;
+}
+#hd .logo{
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    background-image: url(logo1.png);
+    /* background-color: red; */
+    width: 76px;
+    height: 30px;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999em;
+}
+#hd .txt1{
+    font-size: 1.5em;
+    margin-top: -1em;
+}
+#hd .txt2{
+    font-size: 1.5em;
+}
+#hd .username{
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+#hd .portrait{
+    position: relative;
+    margin: 0 auto 0;
+    width: 40%;
+    /* height: 160px; */
+    overflow: hidden;
+}
+#hd .portrait i{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-image: url(pp.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#hd .portrait img{
+    /* position: absolute; */
+    /* width: 140px; */
+    /* height: 140px; */
+    border-radius: 50%;
+    /* left: 11px; */
+    /* top: 15px; */
+}
