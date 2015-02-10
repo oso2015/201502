@@ -1,6 +1,17 @@
 #hd{
     height: 60%;
 }
+#hd .scale{
+    transform-origin: 50% -20%;
+    /*transform: scale(.9);*/
+    /* background-color: red; */
+}
+@media (max-height: 600px) {
+    #hd .scale{transform: scale(.9);}
+}
+@media (max-height: 500px) {
+    #hd .scale{transform: scale(.8);}
+}
 #bd .y1,
 #bd .y2,
 #bd .y3{
@@ -36,7 +47,7 @@
     text-indent: -999em;
     width: 70%;
     height: 150px;
-    margin: 5px auto 0;
+    margin: 10px auto 0;
     /* background-color: red; */
 }
 #hd p{
@@ -56,25 +67,26 @@
     text-indent: -999em;
 }
 #hd .txt1{
-    font-size: 1.5em;
+    font-size: 20px;
     margin-top: -1em;
 }
 #hd .txt2{
-    font-size: 1.5em;
+    font-size: 16px;
 }
 #hd .username{
-    font-size: 1.3em;
-    margin: 0.5em 0;
+    font-size: 16px;
+    margin: 0px 0 3px;
 }
 #hd .portrait{
     position: relative;
-    margin: 0 auto 0;
-    width: 40%;
-    /* height: 160px; */
+    margin: -10px auto 0;
+    width: 135px;
+    height: 150px;
     overflow: hidden;
+    /* background-color: red; */
 }
 #hd .portrait i{
-    display: none;
+    /* display: none; */
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -85,10 +97,11 @@
     background-position: 50% 50%;
 }
 #hd .portrait img{
-    /* position: absolute; */
-    /* width: 140px; */
-    /* height: 140px; */
+    /* display: none; */
+    position: absolute;
+    width: 116px;
+    height: 116px;
     border-radius: 50%;
-    /* left: 11px; */
-    /* top: 15px; */
+    left: 10px;
+    top: 22px;
 }
