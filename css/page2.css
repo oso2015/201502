@@ -3,20 +3,21 @@
 }
 
 #hd .scale{
-    height: 100%;
+    /* height: 100%; */
     transform-origin: 50% -10%;
     /*transform: scale(.9);*/
     /* background-color: red; */
+    margin-bottom: 15px;
 }
 @media (max-height: 600px) {
-    #hd .scale{transform: scale(.96);}
+    #hd .scale{/* transform: scale(.96); */}
 }
 @media (max-height: 500px) {
-    #hd .scale{transform: scale(.88);}
+    #hd .scale{/* transform: scale(.88); */}
 }
 #hd textarea{
     display: block;
-    height: 58%;
+    height: 60px;
     width: 94%;
     margin: 5% auto 0;
     border-width: 0;
@@ -41,9 +42,6 @@
     color: #333;
     height: auto;
     margin: 0 1em 100px;
-}
-@media (max-height: 600px) {
-    #bd{margin-bottom: 90px;}
 }
 #bd p{
     color: #999;
